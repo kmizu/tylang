@@ -1,0 +1,29 @@
+class Point(x: Int, y: Int) {
+  fun getX(): Int { x }
+  fun getY(): Int { y }
+  fun addX(dx: Int): Int {
+    x + dx
+  }
+}
+
+object MathUtils {
+  fun abs(n: Int): Int {
+    if (n < 0) {
+      0 - n
+    } else {
+      n
+    }
+  }
+  fun square(n: Int): Int {
+    n * n
+  }
+}
+
+extension Int {
+  fun isEven(): Boolean {
+    this % 2 == 0
+  }
+  fun double(): Int {
+    this * 2
+  }
+}

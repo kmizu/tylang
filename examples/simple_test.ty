@@ -1,0 +1,7 @@
+fun add(x: Int, y: Int): Int {
+  x + y
+}
+
+fun greeting(): String {
+  "Hello, TyLang!"
+}

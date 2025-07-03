@@ -1,0 +1,4 @@
+class Point(x: Int, y: Int) {
+  fun getX(): Int { x }
+  fun getY(): Int { y }
+}

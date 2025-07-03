@@ -1,0 +1,8 @@
+extension String {
+  fun reverse(): String {
+    "reversed"
+  }
+  fun length(): Int {
+    42
+  }
+}

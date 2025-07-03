@@ -1,0 +1,135 @@
+# Scala / SBT build artifacts
+target/
+project/project/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# SBT specific
+.cache
+.history
+.lib/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.vscode/
+.metals/
+.bloop/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# TyLang specific
+*.ty.class
+examples/*.class
+test-output/
+
+# JVM crash logs
+hs_err_pid*
+
+# Assembly plugin
+assembly/
+
+# Test artifacts
+test-*.ty
+target/
+
+# REPL history
+.tylang_history
+.tylang_repl_*
+
+# Scala-build artifacts
+.scala-build/
+.bsp/
+
+# Debug files
+debug_*.scala
+*.debug
+
+# Coverage reports
+coverage/
+*.coverage
+
+# Benchmark results
+benchmarks/results/
+
+# Documentation build
+docs/_build/
+docs/.jekyll-cache/
+
+# Package files
+*.zip
+*.tar.gz
+*.tgz
+
+# Local configuration
+local.conf
+.env
+.env.local
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Compiled bytecode directories
+out/
+build/
+bin/
+
+# Zinc incremental compilation
+target/scala-*/zinc/
+target/streams/_global/
+
+# Assembly artifacts
+target/scala-*/assembly/
+*.fat.jar
+
+# Native packager
+target/universal/
+
+# Ensime
+.ensime
+.ensime_cache/
+
+# Dotty/Scala 3
+.dotty-ide-artifact
+.dotty-ide.json
+
+# ScalaFix
+.scalafix.conf
+
+# Scalafmt
+.scalafmt.conf
+
+# Mill
+out/
+.mill-version
+
+# BSP
+.bsp/
+
+# Coursier
+.coursier/
+
+# Ammonite
+.ammonite/

@@ -1,0 +1,11 @@
+class Point(x: Int, y: Int) {
+  fun getX(): Int { x }
+  fun getY(): Int { y }
+}
+
+object PointUtils {
+  fun origin(): Int { 0 }
+  fun getOriginX(): Int { 
+    origin()
+  }
+}

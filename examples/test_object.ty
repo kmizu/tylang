@@ -1,0 +1,4 @@
+object Math {
+  fun pi(): Double { 3.14159 }
+  fun square(x: Int): Int { x * x }
+}

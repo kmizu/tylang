@@ -1,0 +1,27 @@
+// 複雑なサンプル: クラス + オブジェクト + 拡張メソッド
+
+class Point(x: Int, y: Int) {
+  fun getX(): Int { x }
+  fun getY(): Int { y }
+  fun add(other: Point): Point {
+    Point(x + other.getX(), y + other.getY())
+  }
+}
+
+object PointUtils {
+  fun origin(): Point { Point(0, 0) }
+  fun distance(p1: Point, p2: Point): Double {
+    val dx = p1.getX() - p2.getX()
+    val dy = p1.getY() - p2.getY()
+    0.0
+  }
+}
+
+extension Point {
+  fun scale(factor: Int): Point {
+    Point(getX() * factor, getY() * factor)
+  }
+  fun toString(): String {
+    "Point"
+  }
+}

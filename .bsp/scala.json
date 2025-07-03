@@ -1,0 +1,27 @@
+{
+  "name": "scala",
+  "argv": [
+    "/home/mizushima/.sdkman/candidates/scala/3.6.3/libexec/scala-cli",
+    "--cli-default-scala-version",
+    "3.6.3",
+    "--repository",
+    "file:///home/mizushima/.sdkman/candidates/scala/current/maven2",
+    "--prog-name",
+    "scala",
+    "--skip-cli-updates",
+    "bsp",
+    "--json-options",
+    "/home/mizushima/repo/tylang/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/mizushima/repo/tylang/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/mizushima/repo/tylang/.scala-build/ide-envs.json",
+    "/home/mizushima/repo/tylang/debug_parser.scala"
+  ],
+  "version": "1.5.4",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

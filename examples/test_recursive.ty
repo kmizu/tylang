@@ -1,0 +1,11 @@
+fun add(x: Int, y: Int): Int {
+  x + y
+}
+
+fun factorial(n: Int): Int {
+  if (n <= 1) {
+    1
+  } else {
+    n * factorial(n - 1)
+  }
+}
